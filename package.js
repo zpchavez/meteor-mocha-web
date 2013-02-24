@@ -20,7 +20,7 @@ Package.on_use(function (api, where) {
   var fs = require("fs");
   var util = require("util");
 
-  api.add_files(['mocha.js', "chai.js", "mocha.css", "preTest.js", "testRunner.js"], "client");
+  api.add_files(['mocha.js', 'sinon.js', 'chai.js', 'sinon-chai.js', 'mocha.css', 'preTest.js', 'testRunner.js'], 'client');
 
   var self = this;
 
