@@ -4221,3 +4221,6 @@ if (typeof module == "object" && typeof require == "function") {
 }(typeof sinon == "object" && sinon || null, typeof window != "undefined" ? window : global));
 
 return sinon;}.call(typeof window != 'undefined' && window || {}));
+
+// Set global accessible from other files.
+this.sinon = sinon;
